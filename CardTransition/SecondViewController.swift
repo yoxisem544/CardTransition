@@ -52,7 +52,11 @@ final public class SecondViewController: UIViewController {
 
     // MARK: - 🔒 Private Methods
     @objc func tap() {
-        dismiss(animated: true, completion: nil)
+        let vc = SecondViewController()
+//        vc.transitioningDelegate = nn
+//        vc.modalPresentationStyle = .custom
+        present(vc, animated: true, completion: nil)
+//        dismiss(animated: true, completion: nil)
     }
 
 }

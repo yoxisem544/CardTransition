@@ -8,7 +8,20 @@
 
 import UIKit
 
-final public class CardTransitioningDelegate: NSObject, UIViewControllerTransitioningDelegate {
+final public class CardTransitionManager: UIPercentDrivenInteractiveTransition, UIViewControllerTransitioningDelegate {
+
+    public var nextScene: UIViewController? {
+        didSet {
+            nextScene?.modalPresentationStyle = .custom
+            nextScene?.transitioningDelegate = self
+            // add pan
+            let pan =
+            nextScene?.view.addGestureRecognizer(panGesture)
+        }
+    }
+
+    private var panGesture = UIPanGestureRecognizer(target: self, action: #selector(pan(gesture:)))
+    private var isInteractive: Bool = false
 
     public func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         return CardPushTransitionAnimator()
@@ -18,6 +31,30 @@ final public class CardTransitioningDelegate: NSObject, UIViewControllerTransiti
         return CardPopTransitionAnimator()
     }
 
+    public func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+        return isInteractive ? self : nil
+    }
+
+    public func interactionControllerForPresentation(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+        return isInteractive ? self : nil
+    }
+
+    @objc private func pan(gesture: UIPanGestureRecognizer) {
+
+        let translation = gesture.translation(in: gesture.view!)
+
+//        switch gesture.state {
+//        case .began:
+//            isInteractive = true
+//            nextScene?.dismiss(animated: true, completion: nil)
+//
+//        case .changed:
+//
+//
+//        default:
+//            isInteractive = false
+//        }
+    }
 }
 
 fileprivate let darkOverlay: UIView = {

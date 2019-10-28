@@ -17,6 +17,23 @@
 		6325D93C2366ECAF004D11D3 /* CardTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D93B2366ECAF004D11D3 /* CardTransitionUITests.swift */; };
 		6325D9602366EEE8004D11D3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D95F2366EEE8004D11D3 /* SecondViewController.swift */; };
 		6325D9622366F07B004D11D3 /* CardTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D9612366F07B004D11D3 /* CardTransitioningDelegate.swift */; };
+		6325D973236700E5004D11D3 /* RoundedCardPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D966236700E5004D11D3 /* RoundedCardPresentationController.swift */; };
+		6325D974236700E5004D11D3 /* RoundedCardDismissingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D967236700E5004D11D3 /* RoundedCardDismissingTransition.swift */; };
+		6325D975236700E5004D11D3 /* ScrollViewDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D968236700E5004D11D3 /* ScrollViewDetector.swift */; };
+		6325D976236700E5004D11D3 /* RoundedCardTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D969236700E5004D11D3 /* RoundedCardTransitioningDelegate.swift */; };
+		6325D977236700E5004D11D3 /* RoundedCardPresentingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D96A236700E5004D11D3 /* RoundedCardPresentingTransition.swift */; };
+		6325D978236700E5004D11D3 /* RoundedCardTransition+IsPresentedUsingRoundedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D96B236700E5004D11D3 /* RoundedCardTransition+IsPresentedUsingRoundedCard.swift */; };
+		6325D979236700E5004D11D3 /* ScrollViewUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D96C236700E5004D11D3 /* ScrollViewUpdater.swift */; };
+		6325D97A236700E5004D11D3 /* UIViewController+RoundedCardTransitionViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D96D236700E5004D11D3 /* UIViewController+RoundedCardTransitionViewControllerProtocol.swift */; };
+		6325D97B236700E5004D11D3 /* RoundedCardTransitionViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D96E236700E5004D11D3 /* RoundedCardTransitionViewControllerProtocol.swift */; };
+		6325D97C236700E5004D11D3 /* RoundedCardTransitionManualLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D96F236700E5004D11D3 /* RoundedCardTransitionManualLayout.swift */; };
+		6325D99F236701DE004D11D3 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D985236701DE004D11D3 /* UIColorExtension.swift */; };
+		6325D9A2236701DE004D11D3 /* NumberExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D988236701DE004D11D3 /* NumberExtension.swift */; };
+		6325D9A7236701DE004D11D3 /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D98D236701DE004D11D3 /* UILabelExtension.swift */; };
+		6325D9AA236701DE004D11D3 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D990236701DE004D11D3 /* UIViewExtension.swift */; };
+		6325D9AB236701DE004D11D3 /* NSObejctExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D991236701DE004D11D3 /* NSObejctExtension.swift */; };
+		6325D9B0236701DE004D11D3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D996236701DE004D11D3 /* StringExtension.swift */; };
+		6325D9B523670317004D11D3 /* HitTestExtendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6325D9B423670317004D11D3 /* HitTestExtendView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +70,23 @@
 		6325D93D2366ECAF004D11D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6325D95F2366EEE8004D11D3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		6325D9612366F07B004D11D3 /* CardTransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransitioningDelegate.swift; sourceTree = "<group>"; };
+		6325D966236700E5004D11D3 /* RoundedCardPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCardPresentationController.swift; sourceTree = "<group>"; };
+		6325D967236700E5004D11D3 /* RoundedCardDismissingTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCardDismissingTransition.swift; sourceTree = "<group>"; };
+		6325D968236700E5004D11D3 /* ScrollViewDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewDetector.swift; sourceTree = "<group>"; };
+		6325D969236700E5004D11D3 /* RoundedCardTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCardTransitioningDelegate.swift; sourceTree = "<group>"; };
+		6325D96A236700E5004D11D3 /* RoundedCardPresentingTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCardPresentingTransition.swift; sourceTree = "<group>"; };
+		6325D96B236700E5004D11D3 /* RoundedCardTransition+IsPresentedUsingRoundedCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RoundedCardTransition+IsPresentedUsingRoundedCard.swift"; sourceTree = "<group>"; };
+		6325D96C236700E5004D11D3 /* ScrollViewUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewUpdater.swift; sourceTree = "<group>"; };
+		6325D96D236700E5004D11D3 /* UIViewController+RoundedCardTransitionViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+RoundedCardTransitionViewControllerProtocol.swift"; sourceTree = "<group>"; };
+		6325D96E236700E5004D11D3 /* RoundedCardTransitionViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCardTransitionViewControllerProtocol.swift; sourceTree = "<group>"; };
+		6325D96F236700E5004D11D3 /* RoundedCardTransitionManualLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCardTransitionManualLayout.swift; sourceTree = "<group>"; };
+		6325D985236701DE004D11D3 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		6325D988236701DE004D11D3 /* NumberExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberExtension.swift; sourceTree = "<group>"; };
+		6325D98D236701DE004D11D3 /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		6325D990236701DE004D11D3 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		6325D991236701DE004D11D3 /* NSObejctExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObejctExtension.swift; sourceTree = "<group>"; };
+		6325D996236701DE004D11D3 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		6325D9B423670317004D11D3 /* HitTestExtendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HitTestExtendView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +142,8 @@
 				6325D91B2366ECAD004D11D3 /* SceneDelegate.swift */,
 				6325D91D2366ECAD004D11D3 /* ViewController.swift */,
 				6325D95F2366EEE8004D11D3 /* SecondViewController.swift */,
+				6325D97F236701DE004D11D3 /* Extensions */,
+				6325D965236700E5004D11D3 /* Rounded Card Transition */,
 				6325D91F2366ECAD004D11D3 /* Main.storyboard */,
 				6325D9222366ECAE004D11D3 /* Assets.xcassets */,
 				6325D9242366ECAE004D11D3 /* LaunchScreen.storyboard */,
@@ -140,6 +176,38 @@
 				6325D9612366F07B004D11D3 /* CardTransitioningDelegate.swift */,
 			);
 			path = "Card Transition";
+			sourceTree = "<group>";
+		};
+		6325D965236700E5004D11D3 /* Rounded Card Transition */ = {
+			isa = PBXGroup;
+			children = (
+				6325D966236700E5004D11D3 /* RoundedCardPresentationController.swift */,
+				6325D967236700E5004D11D3 /* RoundedCardDismissingTransition.swift */,
+				6325D968236700E5004D11D3 /* ScrollViewDetector.swift */,
+				6325D969236700E5004D11D3 /* RoundedCardTransitioningDelegate.swift */,
+				6325D96A236700E5004D11D3 /* RoundedCardPresentingTransition.swift */,
+				6325D96B236700E5004D11D3 /* RoundedCardTransition+IsPresentedUsingRoundedCard.swift */,
+				6325D96C236700E5004D11D3 /* ScrollViewUpdater.swift */,
+				6325D96D236700E5004D11D3 /* UIViewController+RoundedCardTransitionViewControllerProtocol.swift */,
+				6325D96E236700E5004D11D3 /* RoundedCardTransitionViewControllerProtocol.swift */,
+				6325D96F236700E5004D11D3 /* RoundedCardTransitionManualLayout.swift */,
+			);
+			name = "Rounded Card Transition";
+			path = "../../Rounded Card Transition";
+			sourceTree = "<group>";
+		};
+		6325D97F236701DE004D11D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6325D9B423670317004D11D3 /* HitTestExtendView.swift */,
+				6325D985236701DE004D11D3 /* UIColorExtension.swift */,
+				6325D988236701DE004D11D3 /* NumberExtension.swift */,
+				6325D98D236701DE004D11D3 /* UILabelExtension.swift */,
+				6325D990236701DE004D11D3 /* UIViewExtension.swift */,
+				6325D991236701DE004D11D3 /* NSObejctExtension.swift */,
+				6325D996236701DE004D11D3 /* StringExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,10 +342,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				6325D9602366EEE8004D11D3 /* SecondViewController.swift in Sources */,
+				6325D97A236700E5004D11D3 /* UIViewController+RoundedCardTransitionViewControllerProtocol.swift in Sources */,
+				6325D979236700E5004D11D3 /* ScrollViewUpdater.swift in Sources */,
 				6325D9622366F07B004D11D3 /* CardTransitioningDelegate.swift in Sources */,
+				6325D9A2236701DE004D11D3 /* NumberExtension.swift in Sources */,
+				6325D99F236701DE004D11D3 /* UIColorExtension.swift in Sources */,
+				6325D9AA236701DE004D11D3 /* UIViewExtension.swift in Sources */,
 				6325D91E2366ECAD004D11D3 /* ViewController.swift in Sources */,
+				6325D9B0236701DE004D11D3 /* StringExtension.swift in Sources */,
 				6325D91A2366ECAD004D11D3 /* AppDelegate.swift in Sources */,
+				6325D9AB236701DE004D11D3 /* NSObejctExtension.swift in Sources */,
 				6325D91C2366ECAD004D11D3 /* SceneDelegate.swift in Sources */,
+				6325D977236700E5004D11D3 /* RoundedCardPresentingTransition.swift in Sources */,
+				6325D9B523670317004D11D3 /* HitTestExtendView.swift in Sources */,
+				6325D974236700E5004D11D3 /* RoundedCardDismissingTransition.swift in Sources */,
+				6325D97C236700E5004D11D3 /* RoundedCardTransitionManualLayout.swift in Sources */,
+				6325D978236700E5004D11D3 /* RoundedCardTransition+IsPresentedUsingRoundedCard.swift in Sources */,
+				6325D973236700E5004D11D3 /* RoundedCardPresentationController.swift in Sources */,
+				6325D975236700E5004D11D3 /* ScrollViewDetector.swift in Sources */,
+				6325D9A7236701DE004D11D3 /* UILabelExtension.swift in Sources */,
+				6325D976236700E5004D11D3 /* RoundedCardTransitioningDelegate.swift in Sources */,
+				6325D97B236700E5004D11D3 /* RoundedCardTransitionViewControllerProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

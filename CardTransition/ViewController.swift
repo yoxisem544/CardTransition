@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let ct = CardTransitioningDelegate()
+    let ct = CardTransitionManager()
+    let nn = RoundedCardTransitioningDelegate()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +23,7 @@ class ViewController: UIViewController {
 
     @objc func tap() {
         let vc = SecondViewController()
-        vc.transitioningDelegate = ct
+        vc.transitioningDelegate = nn
         vc.modalPresentationStyle = .custom
         present(vc, animated: true, completion: nil)
     }
