@@ -17,6 +17,10 @@ final public class SecondViewController: UIViewController {
     // MARK: - 🎨 Style
 
     // MARK: - 🧩 Subviews
+    private lazy var scrollView: UIScrollView = {
+        let s = UIScrollView()
+        return s
+    }()
 
     // MARK: - 👆 Actions
 
@@ -44,8 +48,13 @@ final public class SecondViewController: UIViewController {
 
     // MARK: - 🏗 UI
     private func seutpUI() {
-        view.backgroundColor = .red
+        view.backgroundColor = UIColor(red: 0.9, green: 0.9, blue: 0.9, alpha: 1)
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tap)))
+
+        scrollView.frame.size = view.bounds.size
+        scrollView.contentSize.width = view.bounds.size.width
+        scrollView.contentSize.height = 2000
+        view.addSubview(scrollView)
     }
 
     // MARK: - 🚌 Public Methods
